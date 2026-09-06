@@ -16,7 +16,6 @@ __pycache__/
 *.so
 
 # SQLite Database Files (Optional: remove if you want to commit sales.db)
-*.db
 *.sqlite3
 
 # IDE and Editor Files
