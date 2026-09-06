@@ -1,0 +1,30 @@
+# Environment Variables (CRITICAL: Never push API keys or secrets to GitHub)
+.env
+.env.*
+*.env
+
+# Python Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python Bytecode and Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# SQLite Database Files (Optional: remove if you want to commit sales.db)
+*.db
+*.sqlite3
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
