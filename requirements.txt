@@ -1,8 +1,5 @@
 openai
-python-dotenv
-psycopg2[binary]
 streamlit
 pandas
-sqlalchemy
-google-genai
+python-dotenv
 faker
