@@ -4,10 +4,12 @@ import pandas as pd
 from dotenv import load_dotenv
 from openai import OpenAI
 from get_schema import get_schema_string
+import streamlit as st
 
 # 1. Load environment variables (.env) and OpenAI client
 load_dotenv()
-client = OpenAI()
+api_key = st.secrets.get("OPENAI_API_KEY") or os.getenv("OPENAI_API_KEY")
+client = OpenAI(api_key=api_key)
 
 # 2. Load the database schema
 schema = get_schema_string()
